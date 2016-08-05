@@ -11,10 +11,10 @@
     + admin, admin123
 - create npm repositories
     + `npm-hosted`, hosted, for private packages
-    + `npm-3rdparty`, hosted, for 3rd party packages (inspinia)
+    + `npm-3rdparty`, hosted, for not public 3rd party packages
     + `npm-npmjs`, proxy, https://registry.npmjs.org
     + `npm-public`, group, for the 3 above
-        * URL will be sth like: `http://192.168.99.100:8081/repository/npm-npmjs/`
+        * URL will be sth like: `http://192.168.99.100:8081/repository/npm-public/`
 - in Nexus `Administration > Security > Realms` add `npm bearer Security Token Realm`
 
 # Set up npm locally
