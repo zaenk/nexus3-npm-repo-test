@@ -1,0 +1,14 @@
+{
+  "name": "private-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+		"registry" : "http://192.168.99.100:8081/repository/npm-hosted/"
+	},
+  "author": "zaenk",
+  "license": "ISC"
+}
